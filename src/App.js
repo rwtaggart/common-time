@@ -2,18 +2,7 @@ import * as React from 'react';
 import './App.css';
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { palette } from '@mui/system';
-import { purple } from '@mui/material/colors';
-import { styled } from '@mui/material/styles';
 
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Radio from '@mui/material/Radio';
-import RadioGroup from '@mui/material/RadioGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
-import Slider from '@mui/material/Slider';
 import Stack from '@mui/material/Stack';
 import Tooltip from '@mui/material/Tooltip';
 import IconButton from '@mui/material/IconButton';
@@ -21,7 +10,7 @@ import CopyIcon from '@mui/icons-material/ContentCopy';
 
 import { CustomDay } from "./DatePicker.js"
 import AppControls from "./AppControls.js"
-import { DayBlock, RenderSelectedTimes, RenderSelectedGroupedTimes, FormatTimesStr, FormatGroupedTimesStr } from "./TimeBlock.js"
+import { DayBlock, RenderSelectedGroupedTimes, FormatGroupedTimesStr } from "./TimeBlock.js"
 
 
 function App() {
@@ -30,7 +19,6 @@ function App() {
   const [ timeStep, setTimeStep ] = React.useState(60)
   const [ copyErrMsg, setCopyErrMsg ] = React.useState(null)
   const [ dayHoursRange, setDayHoursRange ] = React.useState([8, 17]);  // TODO: use object {start, end}
-  const copyRef = React.useRef(null)
 
   function resetTimesMap() { setTimesMap(new Map()) };
 
