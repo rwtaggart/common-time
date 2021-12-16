@@ -2,7 +2,7 @@
  * Utility Methods
  */
 
-import { format, parse, compareAsc } from 'date-fns'
+import { format, parse } from 'date-fns'
 
 export function dateFmt(date) {
   return format(date, 'EEE, MMM. dd')

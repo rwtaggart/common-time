@@ -3,7 +3,7 @@
  * This is responsible for managing the timeline continuum of events.
  */
 import React from 'react';
-import { timeFmt, dateFmt, parseDate, parseTime } from './utils.js'
+import { timeFmt, parseDate, parseTime } from './utils.js'
 import eachMinuteOfInterval from 'date-fns/eachMinuteOfInterval'
 import areIntervalsOverlapping from 'date-fns/areIntervalsOverlapping'
 import setDate from 'date-fns/set'
@@ -37,7 +37,7 @@ function findTimeBlocks(dateStr, selTimes, timeStep) {
   // const dateStr = kv[0]
   // const selTimes = kv[1]
   console.log('(D): DateTimes Entries: ', timeStep, dateStr, selTimes)
-  if (selTimes.length == 0) {
+  if (selTimes.length === 0) {
     return [dateStr, ['NA']]
   }
   let firstTime = parseTime(dateStr, selTimes[0])
@@ -69,32 +69,6 @@ function findTimeBlocks(dateStr, selTimes, timeStep) {
   }
   let blockStrs = blocks.map( interval => `${timeFmt(interval.start)}-${timeFmt(interval.end)}`).join('; ')
   return [dateStr, blockStrs]
-}
-
-
-function DebugNodeInfo(props) {
-  const { start, end, title, description, link } = props
-  // displayTime, beginRefTime, endRefTime
-  if (props == null) {
-    return <div>Empty Node</div>
-  }
-  return (
-    <div>
-      <div>
-        <span>Start</span>
-        <span>Display: {start && start.displayTime}</span>
-        <span>Begin: {start && start.beginRefTime}</span>
-        <span>End: {start && start.endRefTime}</span>
-      </div>
-      <div>
-        <span>End</span>
-        <span>Display: {end && end.displayTime}</span>
-        <span>Begin: {end && end.beginRefTime}</span>
-        <span>End: {end && end.endRefTime}</span>
-      </div>
-      <span>Node Info: {JSON.stringify(props)}</span>
-    </div>
-  )
 }
 
 /**

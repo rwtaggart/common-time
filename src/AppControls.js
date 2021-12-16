@@ -2,10 +2,6 @@
  * App Controls and User Settings
  */
 import * as React from 'react';
-
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { palette } from '@mui/system';
-import { purple } from '@mui/material/colors';
 import { styled } from '@mui/material/styles';
 
 import Box from '@mui/material/Box';
@@ -16,13 +12,9 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import Slider from '@mui/material/Slider';
-import Stack from '@mui/material/Stack';
-import Tooltip from '@mui/material/Tooltip';
-import IconButton from '@mui/material/IconButton';
-import CopyIcon from '@mui/icons-material/ContentCopy';
 
-const iOSBoxShadow =
-'0 3px 1px rgba(0,0,0,0.1),0 4px 8px rgba(0,0,0,0.13),0 0 0 1px rgba(0,0,0,0.02)';
+// const iOSBoxShadow =
+// '0 3px 1px rgba(0,0,0,0.1),0 4px 8px rgba(0,0,0,0.13),0 0 0 1px rgba(0,0,0,0.02)';
 
 const IOSSlider = styled(Slider)(({ theme }) => ({
   color: theme.palette.mode === 'dark' ? '#3880ff' : '#3880ff',
@@ -79,7 +71,7 @@ export default function AppControls(props) {
   const { 
     timeStep, setTimeStep, 
     dayHoursRange, setDayHoursRange, 
-    resetTimesMap, handleCopy 
+    resetTimesMap 
   } = props
 
   // TODO: Stuff app controls into component
@@ -96,7 +88,6 @@ export default function AppControls(props) {
     }
   };
 
-  const Aux = props => props.children;
   return (
     <>
       <Box sx={{width: '20vw' }}>
