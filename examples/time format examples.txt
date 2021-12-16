@@ -1,0 +1,69 @@
+
+Examples:
+
+Mon, Dec 13:  10:00am-1:00pm; 2:00pm-5:00pm
+Tue, Dec 14:  12:00pm-4:00pm
+
+
+Wednesday Dec. 8th from 1:30 pm ET - 2:30 pm ET
+Friday Dec. 10th from        1:30 pm ET - 5:00 pm ET
+
+
+Friday November 12,     12pm - 4pm
+Monday November 15,     9:30am - 1:30pm; 2pm-3pm
+Tuesday November 16,    5:30pm - 6:30pm
+Wednesday November 17,  9:30am - 1:30pm; 4pm - 6pm
+Friday November 19,     9am - 10am; 12pm - 4pm;
+
+
+**I like this one best**
+
+Wed, Nov. 3:  8am-6pm
+Thr, Nov. 4:    NA
+Fri, Nov. 5:  8am-4pm
+
+Mon, Nov. 8:  12pm-6pm
+Tue, Nov. 9:  12pm-6pm
+Wed, Nov. 10: 12pm-6pm
+Thr, Nov. 11: 8am-6pm
+Fri, Nov. 12: 8am-5pm
+
+
+===========
+This is from the web app:
+Mon, Dec. 13:  9:00am-12:00pm; 1:00pm-5:00pm
+Tue, Dec. 14:  11:00am-4:00pm
+
+Wed, Dec. 08:  10:00am-1:00pm
+Mon, Dec. 13:  9:00am-12:00pm; 1:00pm-5:00pm
+Tue, Dec. 14:  11:00am-4:00pm
+
+Wed, Dec. 08:  10:00am-1:00pm
+Mon, Dec. 13:  9:00am-12:00pm; 1:00pm-5:00pm
+Tue, Dec. 14:  11:00am-4:00pm
+
+
+Wed, Dec. 08:  10:00am-1:00pm; 4:00pm-6:00pm
+Mon, Dec. 13:  9:00am-12:00pm; 1:00pm-5:00pm
+Tue, Dec. 14:  9:00am-10:00am; 11:00am-4:00pm
+Mon, Dec. 27:  10:00am-12:00pm; 1:00pm-3:00pm
+Tue, Dec. 28:  10:00am-11:00am; 12:00pm-2:00pm
+
+Wed, Dec. 08:  10:00am-1:00pm; 4:00pm-6:00pm
+Mon, Dec. 13:  9:00am-12:00pm; 1:00pm-5:00pm
+Tue, Dec. 14:  
+Mon, Dec. 27:  10:00am-12:00pm; 1:00pm-3:00pm
+Tue, Dec. 28:  10:00am-11:00am; 12:00pm-2:00pm
+
+
+Wed, Dec. 08:  10:00am-1:00pm; 4:00pm-6:00pm
+Mon, Dec. 13:  9:00am-12:00pm; 1:00pm-5:00pm
+Tue, Dec. 14:  
+Mon, Dec. 27:  10:00am-12:00pm; 1:00pm-3:00pm
+Tue, Dec. 28:  10:00am-11:00am; 12:00pm-2:00pm
+
+Wed, Dec. 08:  10:00am-1:00pm; 2:00pm-5:00pm
+Mon, Dec. 13:  11:00am-3:00pm
+Tue, Dec. 14:  1:00pm-6:00pm
+Thu, Dec. 16:  NA
+Fri, Dec. 17:  NA
