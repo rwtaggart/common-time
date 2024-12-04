@@ -1,3 +1,16 @@
+# Install
+https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
+```sh
+> npx create-react-app common-time
+> cd 
+```
+
+Other Dependencies:
+```sh
+> yarn add @mui/icons-material
+> yarn add @mui/material
+```
+
 # TODO:
 Here's a list of things left to do
 
@@ -7,6 +20,7 @@ Here's a list of things left to do
 1. Add useful references
 1. Add "pitfalls"
 1. Add docs to configure for usage with GitHub Pages
+1. Add link to GitHub repo
 
 
 # Features:
@@ -34,3 +48,6 @@ https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText
 https://www.w3schools.com/tags/tag_main.asp
 
 https://date-fns.org/v2.27.0/docs/max
+
+https://fonts.google.com/icons?selected=Material+Icons
+
