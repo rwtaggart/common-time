@@ -7,6 +7,7 @@ import Stack from '@mui/material/Stack';
 import Tooltip from '@mui/material/Tooltip';
 import IconButton from '@mui/material/IconButton';
 import CopyIcon from '@mui/icons-material/ContentCopy';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 import { CustomDay } from "./DatePicker.js"
 import AppControls from "./AppControls.js"
@@ -22,6 +23,14 @@ function App() {
 
   function resetTimesMap() { setTimesMap(new Map()) };
 
+  // const ghClasses = makeStyles(theme => ({
+  //   clickableIcon: {
+  //     color: 'green',
+  //     '&:hover': {
+  //     color: 'yellow',
+  //     },
+  //   },
+  // }))();
   const darkTheme = createTheme({
     palette: {
       mode: 'dark',
@@ -58,6 +67,8 @@ function App() {
             setDayHoursRange={setDayHoursRange}
             resetTimesMap={resetTimesMap}
           />
+          <GitHubIcon onClick={e =>  window.location.href='https://github.com/rwtaggart/common-time'} />
+          <span HACK-FIXME/>
         </ThemeProvider>
       </header>
       <main className="app-content">
